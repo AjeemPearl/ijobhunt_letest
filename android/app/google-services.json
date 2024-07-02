@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "580124483996",
+    "project_id": "ijobhunt-30fdc",
+    "storage_bucket": "ijobhunt-30fdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580124483996:android:2a98869823d4098db2a859",
+        "android_client_info": {
+          "package_name": "com.tucimar.ijobhunts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580124483996-a7vega3fvbrqtneichnn0jbtjhl2n32a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDknoWNjqqpY0Vk_wboP3nHDxFXPPIlSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580124483996-a7vega3fvbrqtneichnn0jbtjhl2n32a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "580124483996-sduda7nt76o6jcfga0ne7fq540bvcj49.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "wrteam.edemand.customer.eDemand"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580124483996:android:ff350e73494621d0b2a859",
+        "android_client_info": {
+          "package_name": "wrteam.edemand.customer.e_demand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580124483996-a7vega3fvbrqtneichnn0jbtjhl2n32a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDknoWNjqqpY0Vk_wboP3nHDxFXPPIlSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580124483996-a7vega3fvbrqtneichnn0jbtjhl2n32a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "580124483996-sduda7nt76o6jcfga0ne7fq540bvcj49.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "wrteam.edemand.customer.eDemand"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

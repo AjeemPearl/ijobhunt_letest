@@ -1,0 +1,698 @@
+{
+    "langauge": "English",
+    "@langauge": {
+      "description": "The current Langauge"
+    },
+    "helloWorld":"Hello",
+    "@helloWorld":{
+      "description":"A Programmer greting"
+    },
+    "text1":"EMPLOYER",
+    "@text1":{
+      "description":"A Text"
+    },
+    "employertext":"I am an employer looking to hire",
+    "@employertext":{
+      "description":"A employer Text"
+    },
+    "employeetext1":"EMPLOYEE",
+    "@employeetext1":{
+      "description":"A employee Text1"
+    },
+    "employeetext2":"I am an employee looking for a job",
+    "@employeetext2":{
+      "description":"A employee Text2"
+    },
+    "onboardingtext1":"Looking for a job?",
+    "@onboardingtext1":{
+      "description":"onboarding text1"
+      },
+      "onboardingtext2":"So, We Are Here To Support Your Skills.\n Get the job that what you want",
+    "@onboardingtext2":{
+      "description":"onboarding text2"
+      },
+      "splashtext1":"An easy inexpensive way for the\n employee and employer to connect",
+    "@splashtext1":{
+      "description":"spash text"
+      },
+      "splashtext2":"Welcome To..",
+      "@splashtext2":{
+        "description":"splash text2"
+      },
+       "logintext1":"Hey There 😲 ",
+    "@logintext1":{
+      "description":"login text1"
+      },
+       "logintext2":"Welcome To ",
+    "@logintext2":{
+      "description":"login text2"
+      },
+       "logintext3":"Log In To ",
+    "@logintext3":{
+      "description":"login text3"
+      },
+       "logintext4":"Log In To ",
+    "@logintext4":{
+      "description":"login text4"
+      },
+       "logintext5":"Your ",
+    "@logintext5":{
+      "description":"login text5"
+      },
+       "logintext6":"Account Right Now ! ",
+    "@logintext6":{
+      "description":"login text6"
+      },
+      "loginhinttext1":"Enter a valid email",
+    "@loginhinttext1":{
+      "description":"login hinttext1"
+      },
+       "loginhinttext2":"Enter a password",
+    "@loginhinttext2":{
+      "description":"login hinttext2"
+      },
+      "loginbuttontext":"Login",
+    "@loginbuttontext":{
+      "description":"login buttntext"
+      },
+      "logindevidtext":"or",
+    "@logindevidtext":{
+      "description":"login devidtext"
+      },
+      "facebooktextbutton":"Sign in With Facebook",
+    "@facebooktextbutton":{
+      "description":"facebook button text"
+      },
+      "googletextbutton":"Sign in With Google",
+    "@googletextbutton":{
+      "description":"google button text"
+      },
+       "signupbuttontext1":"Not Having A Account? ",
+    "@signupbuttontext1":{
+      "description":"signup text button1"
+      },
+      "signupbuttontext2":"Sign up",
+    "@signupbuttontext2":{
+      "description":"signup text button2"
+      },
+      "signuptext1":"Hey There 😲",
+      "@signuptext1":{
+        "description":"signup text1"
+      },
+      "signuptext2":"Welcome To ",
+      "@signuptext2":{
+        "description":"signup text2"
+      },
+      "signuptext3":"iJobhunt ",
+      "@signuptext3":{
+        "description":"signup text3"
+      },
+      "signuptext4":"Signup ",
+      "@signuptext4":{
+        "description":"signup text4"
+      },
+      "signuptext5":"& find a good job opportunity for yourself",
+      "@signuptext5":{
+        "description":"signup text5"
+      },
+      "signuphinttext1":"Enter User Name",
+      "@signuphinttext1":{
+        "description":"signup hint text1"
+      },
+      "signuphinttext2":"Enter phone number",
+      "@signuphinttext2":{
+        "description":"signup hint text2"
+      },
+      "signuphinttext3":"Enter a valid email",
+      "@signuphinttext3":{
+        "description":"signup hint text3"
+      },
+      "signuphinttext4":"Enter a password",
+      "@signuphinttext4":{
+        "description":"signup hint text4"
+      },
+      "signuptextbutton":"Sign up",
+      "@signuptextbutton":{
+        "description":"signup text button"
+      },
+      "signuptext6":"Already Having A Account? ",
+      "@signuptext6":{
+        "description":"signup text6"
+      },
+      "signuptext7":"Login now",
+      "@signuptext7":{
+        "description":"signup text7"
+      },
+      "drawertext1":"Welcome to ijobhunt",
+      "@drawertext1":{
+        "description":"drawer text1"
+      },
+      "drawertext2":"Job List",
+      "@drawertext2":{
+        "description":"drawer text2"
+      },
+      "drawertext3":"Home",
+      "@drawertext3":{
+        "description":"drawer text3"
+      },
+      "drawertext4":"Employee Profile",
+      "@drawertext4":{
+        "description":"drawer text4"
+      },
+      "drawertextemployer":"Employer Profile",
+      "@drawertextemployer":{
+        "description":"drawer text4"
+      },
+       "drawertext5":"Company Profile",
+      "@drawertext5":{
+        "description":"drawer text5"
+      },
+      "drawertext6":"Favourite Jobs",
+      "@drawertext6":{
+        "description":"Favourite Jobs"
+      },
+      "drawertext7":"Notification",
+      "@drawertext7":{
+        "description":"Notification"
+      },
+       "drawertext8":"Help Center",
+      "@drawertext8":{
+        "description":"Help Center"
+      },
+       "drawertext9":"Top Companies",
+      "@drawertext9":{
+        "description":"Top Companies"
+      },
+       "drawertext10":"Find Job",
+      "@drawertext10":{
+        "description":"Find Job"
+      },
+      "drawertext11":"Accessibility at iJobhunt",
+      "@drawertext11":{
+        "description":"Accessibility at iJobhunt"
+      },
+      "drawertext12":"Privacy",
+      "@drawertext12":{
+        "description":"Privacy"
+      },
+       "drawertext13":"Privacy Center",
+      "@drawertext13":{
+        "description":"Privacy Center"
+      },
+       "drawertext14":"Connect With Us",
+      "@drawertext14":{
+        "description":"Connect With Us"
+      },
+       "drawertext15":"Term",
+      "@drawertext15":{
+        "description":"Term"
+      },
+       "drawertext16":"Edit Job",
+      "@drawertext16":{
+        "description":"Term"
+      },
+       "drawertext17":"Edit Company",
+      "@drawertext17":{
+        "description":"Term"
+      },
+       "drawerlogoutbutton":"Log Out",
+      "@drawerlogoutbutton":{
+        "description":"drawer logout button"
+      },
+      "homepagetext":"Chat",
+      "@homepagetext":{
+        "description":"home page text"
+      },
+      "homepagetext1":"Recommended",
+      "@homepagetext1":{
+        "description":"home page text1"
+      },
+      "homepagetext2":"Let's Find Your Dream Job!",
+      "@homepagetext2":{
+        "description":"home page text2"
+      },
+      "homepagetext3":"Search Job",
+      "@homepagetext3":{
+        "description":"Search Job"
+      },
+      
+       "homepagetext4":"Your Dream Job at one Place\n",
+      "@homepagetext4":{
+        "description":"Your Dream Job at one Place\n"
+      },
+      "homepagetext5":"iJobhunt is a job hunting and posting, platform where both the employer, and thecandidate can search or post for a job.",
+      "@homepagetext5":{
+        "description":"iJobhunt is a job hunting and posting, platform where both the employer, and thecandidate can search or post for a job."
+      },
+       "homepagetext6":"Ask your question",
+      "@homepagetext6":{
+        "description":"Ask your question"
+      },
+       "homepagetext7":"Share your suggestion\n",
+      "@homepagetext7":{
+        "description":"Share your suggestion\n"
+      },
+       "homepagetext8":"Help us to improve !!",
+      "@homepagetext8":{
+        "description":"Help us to improve !!"
+      },
+      "homepagetext9":"Rate your experice\n",
+      "@homepagetext9":{
+        "description":"Rate your experice\n"
+      },
+      "homepagetext10":"Explore opportunities to get job",
+      "@homepagetext10":{
+        "description":"Explore opportunities to get job"
+      },
+      "companyaddtext1":"Add your Company Here",
+      "@companyaddtext1":{
+        "description":"company add text1"
+      },
+      "companyaddtext2":"You haven't Posted a job before, so you'll need to add your company first..",
+      "@companyaddtext2":{
+        "description":"company add text 2"
+      },
+      "companyaddtext3":"Your Company's Name",
+      "@companyaddtext3":{
+        "description":"company add text 3"
+      },
+      "companyaddtext4":"Your Company's number of employees",
+      "@companyaddtext4":{
+        "description":"company add text 4"
+      },
+      "companyaddtext5":"Your first and last name",
+      "@companyaddtext5":{
+        "description":"company add text 5"
+      },
+      "companyaddtext6":"Your Phone number",
+      "@companyaddtext6":{
+        "description":"company add text 6"
+      },
+      "companyaddtext7":"Country",
+      "@companyaddtext7":{
+        "description":"company add text 7"
+      },
+      "companyaddtext8":"Chose image",
+      "@companyaddtext8":{
+        "description":"company add text 8"
+      },
+      "companyaddtext9":"Chose file",
+      "@companyaddtext9":{
+        "description":"company add text 9"
+      },
+      "companyaddtext10":"Address",
+      "@companyaddtext10":{
+        "description":"company add text 10"
+      },
+       "companyaddtext11":"Save and continue",
+      "@companyaddtext11":{
+        "description":"company add text 11"
+      },
+       "companyaddtext12":"About Your Company",
+      "@companyaddtext12":{
+        "description":"company add text 12"
+      },
+       "companyaddtext13":"Chose file",
+      "@companyaddtext13":{
+        "description":"company add text 13"
+      },
+       "companyaddtext14":"Update Company",
+      "@companyaddtext14":{
+        "description":"company add text 14"
+      },
+       "companyaddtext15":"Your Email Address",
+      "@companyaddtext15":{
+        "description":"Your Email Address"
+      },
+      "darkmode":"Dark Mode",
+      "@darkmode":{
+        "description":"Dark Mode Switch button"
+      },
+       "companyprofiletext1":"Company Name",
+      "@companyprofiletext1":{
+        "description":"Company name"
+      },
+      "companyprofiletext2":"Address",
+      "@companyprofiletext2":{
+        "description":"Address"
+      },
+      "companyprofiletext3":"Telephone",
+      "@companyprofiletext3":{
+        "description":"Telephone"
+      },
+      "companyprofiletext4":"Email",
+      "@companyprofiletext4":{
+        "description":"Email"
+      },
+       "companyprofileviewjobs":"View Jobs",
+      "@companyprofileviewjobs":{
+        "description":"View Jobs"
+      },
+       "companyprofileaddjobs":"Add Jobs",
+      "@companyprofileaddjobs":{
+        "description":"Add Jobs"
+      },
+      "companyprofiletext5":"About",
+      "@companyprofiletext5":{
+        "description":"About"
+      },
+       "jobtitle":"Job Title",
+      "@jobtitle":{
+        "description":"jobtitle"
+      },
+       "jobdescription":"Job Description",
+      "@jobdescription":{
+        "description":"Job Description"
+      },
+       "descjobsalary":"Describe Job Salary",
+      "@descjobsalary":{
+        "description":"Describe Job Salary"
+      },
+       "country":"Country",
+      "@country":{
+        "description":"Country"
+      },
+       "descjoblocation":"Which option best describes this job's location?",
+      "@descjoblocation":{
+        "description":"Which option best describes this job's location?"
+      },
+      "address":"Address",
+      "@address":{
+        "description":"Address"
+      },
+      "addjobappbar":"Add new Job",
+      "@addjobappbar":{
+        "description":"Add new Job"
+      },
+      "savebutton":"Save and continue",
+      "@savebutton":{
+        "description":"Save and continue"
+      },
+       "updatejob":"Update Job",
+      "@updatejob":{
+        "description":"Update Job"
+      },
+        "companyprofile":"Company Profile",
+      "@companyprofile":{
+        "description":"Company Profile"
+      },
+        "searchcandidate":"Search Candidate",
+      "@searchcandidate":{
+        "description":"Search Candidate"
+      },
+       "add":"Add",
+      "@add":{
+        "description":"Add"
+      },
+       "newjob":"New Job\n",
+      "@add":{
+        "description":"New Job\n"
+      },
+       "employerhomeAddjob":"Tap on the add button to Add a new job.",
+      "@employerhomeAddjob":{
+        "description":"Tap on the add button to Add a new job."
+      },
+       "view":"View",
+      "@view":{
+        "description":"View"
+      },
+       "employermathcedcandidate":"Matched Candidates\n",
+      "@employermathcedcandidate":{
+        "description":"Matched Candidates\n"
+      },
+       "employermathcedcandidatetext":"Find matched Candidates as per your requirment on one click",
+      "@employermathcedcandidatetext":{
+        "description":"Find matched Candidates as per your requirment on one click"
+      },
+      "clickHere":"Click Here",
+      "@clickHere":{
+        "description":"Click Here"
+      },
+        "viewJobs":"View Jobs\n",
+      "@viewJobs":{
+        "description":"View Jobs\n"
+      },
+        "viewJobstext":"You are one click away to see your posted jobs.",
+      "@ViewJobstext":{
+        "description":"You are one click away to see your posted jobs."
+      },
+        "search":"Search",
+      "@Search":{
+        "description":"Search"
+      },
+       "searchcandidate":"Search Candidates",
+      "@searchcandidate":{
+        "description":"Search Candidates"
+      },
+  "buySubscription":"Buy Subscription",
+  "@buySubscription":{
+    "description":"Buy Subscription"
+  },
+       "searchcandidate1":"Looking for a new candidate? click on the button and search the candidate",
+      "@Searchcandidate1":{
+        "description":"Looking for a new candidate? click on the button and search the candidate"
+      },
+       "resentActiveties":"Resent Activeties",
+      "@resentActiveties":{
+        "description":"Resent Activeties"
+      },
+        "recentlyPostedJobs":"Recently Posted Jobs",
+      "@recentlyPostedJobs":{
+        "description":"Recently Posted Jobs"
+      },
+        "markedFavourite":"Marked Favourite",
+      "@markedFavourite":{
+        "description":"Marked Favourite"
+      },
+       "recomendedForYou":"Recomended For You",
+      "@recomendedForYou":{
+        "description":"Recomended For You"
+      },
+      "canditateDetails":"Candidate Details",
+      "@canditateDetails":{
+        "description":"Canditate Details"
+      },
+       "likedjobs":"Liked Jobs",
+      "@likedjobs":{
+        "description":"Liked Jobs"
+      },
+       "matchedCandidates":"Matched Candidates",
+      "@matchedCandidates":{
+        "description":"Matched Candidates"
+      },
+       "email":"Email",
+      "@email":{
+        "description":"Email"
+      },
+       "phone":"Phone",
+      "@phone":{
+        "description":"Phone"
+      },
+      "aboutMe":"About Me",
+      "@aboutMe":{
+        "description":"About Me"
+      },
+       "dob":"Date of Birth",
+      "@dob":{
+        "description":"Date of Birth"
+      },
+       "profession":"Profession",
+      "@profession":{
+        "description":"Profession"
+      },
+     
+      "bio":"Bio",
+      "@bio":{
+        "description":"Bio"
+      },
+       "educationinfromation":"Educational Information",
+      "@educationinfromationio":{
+        "description":"Educational Information"
+      },
+       "degree":"Degree",
+      "@degree":{
+        "description":"Degree"
+      },
+       "institute":"Institute",
+      "@instute":{
+        "description":"Institute"
+      },
+      "startdate":"Start Date",
+      "@startdate":{
+        "description":"Start Date"
+      },
+      "enddate":"End Date",
+      "@enddate":{
+        "description":"End Date"
+      },
+      "percent":"Percentage",
+      "@percent":{
+        "description":"Percentage"
+      },
+      "grade":"Grade",
+      "@grade":{
+        "description":"Grade"
+      },
+      "orgname":"Organization Name",
+      "@orgname":{
+        "description":"Details"
+      },
+      "professionalInformation":"Professional Information",
+      "@professionalInformation":{
+        "description":"Professional Information"
+      },
+      "jobstartDate":"Job Start Date",
+      "@jobstartdate":{
+        "description":"Job Start Date"
+      },
+      "jobendDate":"Job End Date",
+      "@jobendDate":{
+        "description":"Job End Date"
+      },
+      "role":"Role",
+      "@role":{
+        "description":"Role"
+      },
+      "jobdetails":"Job Details",
+      "@jobdetails":{
+        "description":"job Details"
+      },
+      "details":"Details",
+      "@details":{
+        "description":"Details"
+      },
+       "topcompanies":"Top Companies",
+      "@topcompanies":{
+        "description":"Top Companies"
+      },
+       "recommendedjobs":"Recommended Jobs",
+      "@recommendedjobs":{
+        "description":"Recommended Jobs"
+      },
+       "name":"Name",
+      "@name":{
+        "description":"Name"
+      },
+       "myprofile":"My Profile",
+      "@myprofile":{
+        "description":"My Profile"
+      },
+       "personalinfromation":"My Profile",
+      "@personalinfromation":{
+        "description":"My Profile"
+      },
+      "saveprofession":"Save Profesion",
+      "@saveprofession":{
+        "description":"Save Profession"
+      },
+      "saveeducational":"Save Educational",
+      "@saveeducational":{
+        "description":"Save Educational"
+      },
+      "saveinformation":"Save Information",
+      "@saveinformation":{
+        "description":"Save Information"
+        },
+        "forgotpassword":"Forgot Password",
+      "@forgotpassword":{
+        "description":"Forgot Password"
+        },
+         "contti":"Continue",
+      "@contti":{
+        "description":"Continue"
+        },
+        "otptext1":"We sent a code on your email\n",
+      "@otptext1":{
+        "description":"We sent a code on your email\n"
+        },
+        "otptext2":"Please enter it below.",
+      "@otptext2":{
+        "description":"Please enter it below."
+        },
+        "resetpassword":"Reset Password",
+      "@resetpassword":{
+        "description":"Reset Password"
+        },
+        
+        "submit":"Submit",
+      "@submit":{
+        "description":"Submit"
+        },
+         "newpass":"Enter New Password",
+      "@newpass":{
+        "description":"Enter New Password"
+        },
+         "confirmpass":"Confirm Password",
+      "@confirmpass":{
+        "description":"Confirm Password"
+        },
+        "bestcompanies":"Best companies",
+      "@bestcompanies":{
+        "description":"Best companies "
+        },
+        "bestcompanies3":"to work with",
+      "@bestcompanies3":{
+        "description":"to work with "
+        },
+         "bestcompanies1":"Explore opportunities\n ",
+      "@bestcompanies1":{
+        "description":"Explore opportunities\n"
+        },
+         "bestcompanies4":"to get job\n ",
+      "@bestcompanies4":{
+        "description":"to get job\n"
+        },
+        
+         "bestcompanies2":"with best Employers",
+      "@bestcompanies2":{
+        "description":"with best Employers"
+        },
+         "signuppopuptext1":"THANK YOU",
+      "@signuppopuptext1":{
+        "description":"THANK YOU"
+        },
+         "signuppopuptext2":"WE ARE HAPPY TO HAVE YOU ON BOARD.",
+      "@signuppopuptext2":{
+        "description":"WE ARE HAPPY TO HAVE YOU ON BOARD."
+        },
+          "signuppopuptext3":"Now please",
+      "@signuppopuptext3":{
+        "description":"Now please"
+        },
+          "paymentpopup":"Your 1 month is complete Please go to Premium",
+      "@paymentpopup":{
+        "description":"Your 1 month is complete Please go to Premium"
+        },
+          "paymentback":"Back",
+      "@paymentpopup":{
+        "description":"Back"
+        },
+         "pay":"Pay",
+      "@pay":{
+        "description":"Pay"
+        },
+        "createkeywordemployer":"Create some Keywords for batter candidate search",
+      "@createkeywordemployer":{
+        "description":"Create some Keywords for batter candidate search"
+        },
+        "createkeyhint":"Create your own keywords",
+      "@createkeyhint":{
+        "description":"Create Keywords"
+        },
+        "createkeywordcandidate":"What Kind Job you Want?",
+      "@createkeywordcandidate":{
+        "description":"What Kind Job you Want?"
+        },
+        "appleloginmessage":"Your are an android user please login with google or facebook , or login with the account that you have created",
+      "@createkeywordcandidate":{
+        "description":"Your are an android user please login with google or facebook , or login with the account that you have created"
+        },
+          "deleteaccount":"Delete Account",
+              "@deleteaccount":{
+                "description":"Delete Account"
+                }
+           
+        
+      
+      
+}
