@@ -144,7 +144,8 @@ class _AddCompanyState extends State<AddCompany> {
       Map<String, dynamic> decodeddata = jsonDecode(response.body);
 
       SharedPreferences companystatus = await SharedPreferences.getInstance();
-      companystatus.setString(AppKeys.companyStatus, decodeddata['status'].toString())
+      companystatus
+          .setString(AppKeys.companyStatus, decodeddata['status'].toString())
           .whenComplete(
             () => Navigator.pushReplacement(
               context,
@@ -186,7 +187,7 @@ class _AddCompanyState extends State<AddCompany> {
       for (var phone in phonecodes) {
         if (mounted) {
           setState(() {
-            PhoneCodes.add('+'+phone['phonecode']);
+            PhoneCodes.add('+' + phone['phonecode']);
           });
         }
       }
@@ -224,6 +225,11 @@ class _AddCompanyState extends State<AddCompany> {
                     : AppColors.blueZodiacTwo,
               ),
             ),
+            title: Image.asset(
+              'assets/images/logo/logo2.png',
+              height: 100,
+              width: 100,
+            ),
           ),
           // endDrawer: MyDrawer(),
           body: WillPopScope(
@@ -234,20 +240,12 @@ class _AddCompanyState extends State<AddCompany> {
                   SingleChildScrollView(
                     child: Column(
                       children: [
-                        Image.asset(
-                          'assets/images/logo/logo2.png',
-                          height: 100,
-                          width: 100,
-                        ),
                         SizedBox(
-                          height: MediaQuery.of(context).size.height * 0.25,
+                          height: MediaQuery.of(context).size.height * 0.20,
                           width: MediaQuery.of(context).size.width,
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              const SizedBox(
-                                height: 50.0,
-                              ),
                               Padding(
                                 padding: const EdgeInsets.only(
                                   left: 15.0,
@@ -327,6 +325,16 @@ class _AddCompanyState extends State<AddCompany> {
                                         15.0,
                                       ),
                                     ),
+                                    enabledBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
+                                    ),
+                                    focusedBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
+                                    ),
                                   ),
                                   validator: (value) => value!.isEmpty
                                       ? "Company name can't be empty"
@@ -362,6 +370,16 @@ class _AddCompanyState extends State<AddCompany> {
                                         15.0,
                                       ),
                                     ),
+                                    enabledBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
+                                    ),
+                                    focusedBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
+                                    ),
                                   ),
                                   validator: (value) => value!.isEmpty
                                       ? 'Please Enter No. of emoployees'
@@ -396,6 +414,16 @@ class _AddCompanyState extends State<AddCompany> {
                                       borderRadius: BorderRadius.circular(
                                         15.0,
                                       ),
+                                    ),
+                                    enabledBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
+                                    ),
+                                    focusedBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
                                     ),
                                   ),
                                   validator: (value) => value!.isEmpty
@@ -438,6 +466,16 @@ class _AddCompanyState extends State<AddCompany> {
                                         15.0,
                                       ),
                                     ),
+                                    enabledBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
+                                    ),
+                                    focusedBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
+                                    ),
                                   ),
                                   validator: (val) =>
                                       !RegExp(r'^.+@[a-zA-Z]+\.{1}[a-zA-Z]+(\.{0,1}[a-zA-Z]+)$')
@@ -474,52 +512,60 @@ class _AddCompanyState extends State<AddCompany> {
                                   keyboardType: TextInputType.phone,
                                   controller: employerphonecontroller,
                                   decoration: InputDecoration(
-                                    prefixIcon: Padding(
-                                      padding: const EdgeInsets.all(8.0),
-                                      child: Container(
-                                        width: 98,
-                                        decoration: BoxDecoration(
-                                          border: Border.all(width: .5),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                        child: DropdownButtonHideUnderline(
-                                          child: Padding(
-                                            padding: const EdgeInsets.only(
-                                                left: 8.0, right: 8.0),
-                                            child: DropdownButtonFormField2(
+                                    prefixIcon: Container(
+                                      width: 100,
+                                      height: 46,
+                                      // decoration: BoxDecoration(
+                                      // border: Border.all(width: .5),
+                                      //   borderRadius:
+                                      //       BorderRadius.circular(8.0),
+                                      // ),
+                                      child: DropdownButtonHideUnderline(
+                                        child: Padding(
+                                          padding: const EdgeInsets.only(
+                                              left: 0.0, right: 0.0),
+                                          child: DropdownButtonFormField2(
+
                                               //buttonWidth: 50,
-                                                key: phoneCodeDropdown,
-                                                hint: const Text("+91"),
-                                                items: PhoneCodes
-                                                    .map(
-                                                      (item) => DropdownMenuItem<String>(
-                                                    value: item,
-                                                    child: Text(item),
-                                                  ),
-                                                )
-                                                    .toList(),
-                                                value: selectedPhoneCOde,
-                                                validator: (value) => value == null
-                                                    ? 'Please select the valid job location'
-                                                    : null,
-                                                onChanged: (value) {
-                                                  if (mounted) {
-                                                    setState(() {
-                                                      selectedPhoneCOde = value.toString();
-                                                    });
-                                                  }
-                                                }),
-                                          ),
+                                              key: phoneCodeDropdown,
+                                              hint: const Text("+91"),
+                                              items: PhoneCodes.map(
+                                                (item) =>
+                                                    DropdownMenuItem<String>(
+                                                  value: item,
+                                                  child: Text(item),
+                                                ),
+                                              ).toList(),
+                                              value: selectedPhoneCOde,
+                                              validator: (value) => value ==
+                                                      null
+                                                  ? 'Please select the valid job location'
+                                                  : null,
+                                              onChanged: (value) {
+                                                if (mounted) {
+                                                  setState(() {
+                                                    selectedPhoneCOde =
+                                                        value.toString();
+                                                  });
+                                                }
+                                              }),
                                         ),
                                       ),
                                     ),
-
-
                                     border: OutlineInputBorder(
                                       borderRadius: BorderRadius.circular(
                                         15.0,
                                       ),
+                                    ),
+                                    enabledBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
+                                    ),
+                                    focusedBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
                                     ),
                                   ),
                                   validator: (value) => value!.isEmpty
@@ -608,6 +654,16 @@ class _AddCompanyState extends State<AddCompany> {
                                         15.0,
                                       ),
                                     ),
+                                    enabledBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
+                                    ),
+                                    focusedBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
+                                    ),
                                   ),
                                   // validator: (value) => value!.isEmpty
                                   //     ? "Create KeyWord for better job search experince"
@@ -668,14 +724,26 @@ class _AddCompanyState extends State<AddCompany> {
                                           DropDownDecoratorProps(
                                         dropdownSearchDecoration:
                                             InputDecoration(
-                                                labelText: selectedValue ??
-                                                    '-- Please Select Country --',
-                                                labelStyle: const TextStyle(
-                                                  fontSize: 18.0,
-                                                  fontWeight: FontWeight.w400,
-                                                )
-                                                //hintText: "country in menu mode",
-                                                ),
+                                          labelText: selectedValue ??
+                                              '-- Please Select Country --',
+                                          labelStyle: const TextStyle(
+                                            fontSize: 18.0,
+                                            fontWeight: FontWeight.w400,
+                                          ),
+                                          enabledBorder: OutlineInputBorder(
+                                            borderSide: const BorderSide(
+                                                color: Colors.grey),
+                                            borderRadius:
+                                                BorderRadius.circular(15.0),
+                                          ),
+                                          focusedBorder: OutlineInputBorder(
+                                            borderSide: const BorderSide(
+                                                color: Colors.grey),
+                                            borderRadius:
+                                                BorderRadius.circular(15.0),
+                                          ),
+                                          //hintText: "country in menu mode",
+                                        ),
                                       ),
                                       popupProps: const PopupProps.menu(
                                         showSearchBox: true,
@@ -694,8 +762,9 @@ class _AddCompanyState extends State<AddCompany> {
                                           });
                                         }
                                       },
-                                      validator:(value) =>value==null?"Country Can't be empty":null
-                                      ,
+                                      validator: (value) => value == null
+                                          ? "Country Can't be empty"
+                                          : null,
                                     ),
                                   ),
                                 ),
@@ -781,7 +850,7 @@ class _AddCompanyState extends State<AddCompany> {
                                                     ),
                                                   ),
                                                   alignment: Alignment.center,
-                                                  height: 20,
+                                                  height: 35,
                                                   width: 140.0,
                                                   child: Text(
                                                     AppLocalizations.of(
@@ -840,6 +909,16 @@ class _AddCompanyState extends State<AddCompany> {
                                         15.0,
                                       ),
                                     ),
+                                    enabledBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
+                                    ),
+                                    focusedBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
+                                    ),
                                   ),
                                   validator: (value) => value!.isEmpty
                                       ? "Enter Your Address"
@@ -875,6 +954,16 @@ class _AddCompanyState extends State<AddCompany> {
                                         15.0,
                                       ),
                                     ),
+                                    enabledBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
+                                    ),
+                                    focusedBorder: OutlineInputBorder(
+                                      borderSide:
+                                          const BorderSide(color: Colors.grey),
+                                      borderRadius: BorderRadius.circular(15.0),
+                                    ),
                                   ),
                                   validator: (value) => value!.isEmpty
                                       ? "Please Tell us somthing about your company"
@@ -898,8 +987,8 @@ class _AddCompanyState extends State<AddCompany> {
                                           noOfEmployee: noofempcontroller.text,
                                           employerName:
                                               employernamecontroller.text,
-                                          phoneNumber:
-                                             selectedPhoneCOde! + employerphonecontroller.text,
+                                          phoneNumber: selectedPhoneCOde! +
+                                              employerphonecontroller.text,
                                           country: selectedValue.toString(),
                                           address: joblocationcontroller.text,
                                           empimage: img.toString(),

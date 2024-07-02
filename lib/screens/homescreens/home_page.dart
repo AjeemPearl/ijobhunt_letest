@@ -44,6 +44,7 @@ import '../../app/constants/app.keys.dart';
 import '../../core/models/getCompanies.dart';
 import '../../core/notifiers/langaugeChangeprovider.dart';
 import '../../l10n/l10n.dart';
+import '../../widgets/drawer_widget.dart';
 import '../AndroidPayment/payment.dart';
 import '../inapppurches/Paywall.dart';
 import '../notificonSceen/notification.dart';
@@ -722,7 +723,6 @@ class _HomePageState extends State<HomePage> {
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
                                     DropdownButton2(
-
                                       hint: const Text("Choose Language"),
                                       // buttonElevation: 0,
                                       // buttonDecoration: BoxDecoration(

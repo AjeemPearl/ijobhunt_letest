@@ -53,7 +53,7 @@ void main() async {
 
   runApp(Provider<AppleSignInAvailable>.value(
     value: appleSignInAvailable,
-    child: MyThemeData(),
+    child: const MyThemeData(),
   ));
 }
 
@@ -116,7 +116,7 @@ class MyApp extends StatelessWidget {
                 GlobalCupertinoLocalizations.delegate,
                 AppLocalizations.delegate,
               ],
-              home: SplashScreen(),
+              home: const SplashScreen(),
               //home: SignUpScreen(),
               builder: EasyLoading.init(),
             );
